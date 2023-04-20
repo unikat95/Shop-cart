@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products cart</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <main>
+
+        <div class="container">
+            <div class="product-promo">
+                <h1>DO KOŃCA SIERPNIA Z KODEM <span class="holidays"></span> 20% TANIEJ NA CAŁY ASORTYMENT!</h1>
+            </div>
+        </div>
+    </main>
+
+    <button class="open-cart"><i class="material-icons">shopping_basket</i><span>0</span></button>
+
+    <aside>
+        <div class="main-cart">
+            <h1 class="cart"><i class="material-icons">shopping_cart</i>Produkty w koszyku: <span>0</span></h1>
+            <ul>
+                <li class="none">Brak produktów</li>
+            </ul>
+        </div>
+        <div class="payment">
+            <h3 class="active-promo"></h3>
+            <input id="promo" class="promo-code" placeholder="Kod promocyjny...">
+            <h2 class="paid">
+                <div class="payment-box">Do zapłaty: <span class="total">0.00zł</span></div>
+            </h2>
+            <button class="payment-btn">Przejdź do płatności <i class="material-icons">payment</i></button>
+        </div>
+    </aside>
+
+
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
